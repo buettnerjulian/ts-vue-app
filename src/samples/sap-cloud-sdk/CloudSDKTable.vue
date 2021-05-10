@@ -64,7 +64,7 @@ export default defineComponent({
       // const dest: Destination = {
       //   url: "http://localhost:8080",
       //   proxyConfiguration: {
-      //     host: "sapi01ec501.team-con.de",
+      //     host: "domain.de",
       //     port: 44300,
       //     protocol: Protocol.HTTPS
       //   }
