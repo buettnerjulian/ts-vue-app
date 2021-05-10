@@ -1,0 +1,45 @@
+{
+  "name": "vue3-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "ci-package": "sap-cloud-sdk package --ci"
+  },
+  "dependencies": {
+    "@odata/client": "^2.15.2",
+    "@sap-cloud-sdk/core": "^1.41.0",
+    "@sap-cloud-sdk/generator": "^1.41.0",
+    "@ui5/webcomponents": "^1.0.0-rc.14",
+    "core-js": "^3.10.1",
+    "element-plus": "^1.0.1-beta.27",
+    "vue": "^3.0.11",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@sap-cloud-sdk/cli": "^0.1.12",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-eslint": "^4.5.12",
+    "@vue/cli-plugin-typescript": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.9.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.9.9",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browser": {
+    "fs": false,
+    "net": false,
+    "tls": false
+  }
+}
